@@ -59,7 +59,8 @@ python game_2048.py
 
 ```
 ├── game_2048.py                    
-└── README.md
+├── README.md                
+└── requirements.txt
 ```
 
 ## Acknowledgements
