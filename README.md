@@ -23,12 +23,14 @@ Combine identical numbered tiles on a 4×4 grid to reach the elusive **2048** ti
 
 ```bash
 # 1. Clone or download this repository
-git clone https://github.com/your‑username/2048‑python.git
+git clone https://github.com/jonnysmart/2048‑python.git
 cd 2048‑python
 
-# 2. Create & activate a virtual environment
-python -m venv venv
-source venv/bin/activate 
+# 2. Create & activate a virtual environment(CMD)
+python -m venv env
+env\Scripts\activate
+python -m pip install --upgrade pip wheel
+pip install -r requirements.txt 
 
 # 3. Install dependencies
 pip install pygame
@@ -60,14 +62,7 @@ python game_2048.py
 └── README.md
 ```
 
-
-## Screenshot
-
-* *
-
-
 ## Acknowledgements
 
 - Original [2048] game by **Gabriele Cirulli**  
 - Pygame community & documentation  
-
